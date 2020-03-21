@@ -1,0 +1,4 @@
+<% @users.each do |x| %>
+ <% @link = "/user/#{x.id}" %>
+ <p> <%= x.name %> <a href= "<%= @link %>">Show</a></p>
+<%end%>
